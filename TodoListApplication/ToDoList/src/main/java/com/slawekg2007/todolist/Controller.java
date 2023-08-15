@@ -185,23 +185,5 @@ public class Controller {
         if(result.isPresent() && (result.get() == ButtonType.OK)) {
             TodoData.getInstance().deleteTodoItem(item);
         }
-
     }
-//    I don't need that anymore
-//    @FXML
-//    public void handleClickListView(){
-//        TodoItem item =todoListView.getSelectionModel().getSelectedItem();
-//        String sb = item.getDetails();
-//        itemDetailsTextArea.setText(sb);
-//        deadlineLabel.setText(item.getDeadline().toString());
-//    }
-
-
-//    @FXML
-//    private Label welcomeText;
-//
-//    @FXML
-//    protected void onHelloButtonClick() {
-//        welcomeText.setText("Welcome to JavaFX Application!");
-//    }
 }
